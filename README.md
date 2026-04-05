@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🚀 Task Manager API
 
 REST API для управления задачами с авторизацией пользователей, ролями и категориями.
@@ -93,5 +92,3 @@ PATCH /tasks/{task_id} — обновить задачу
 
 Максим Демарев  
 GitHub: https://github.com/DemarevMaxim
-
-EOF
