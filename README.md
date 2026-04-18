@@ -97,3 +97,29 @@ PATCH /tasks/{task_id} — обновить задачу
 
 Максим Демарев  
 GitHub: https://github.com/DemarevMaxim
+
+---
+
+# 📂 Структура проекта
+
+task-manager-api/
+
+├── alembic/  
+│   └── versions/  
+
+├── app/  
+│   ├── models.py  
+│   ├── schemas.py  
+│   ├── database.py  
+│   ├── auth.py  
+│   ├── crud.py  
+│   ├── routers/  
+│   │   ├── users.py  
+│   │   ├── tasks.py  
+│   │   └── categories.py  
+│   └── main.py  
+
+├── Dockerfile  
+├── docker-compose.yaml  
+├── requirements.txt  
+├── README.md  
